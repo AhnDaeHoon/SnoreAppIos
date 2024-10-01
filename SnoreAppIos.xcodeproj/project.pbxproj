@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4943615B2CAC1A3A0018E9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943615A2CAC1A3A0018E9DE /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4929FA882CA9632600B2CD5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		4929FA762CA9632500B2CD5A /* SnoreAppIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnoreAppIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4929FA872CA9632600B2CD5A /* SnoreAppIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnoreAppIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4929FA912CA9632600B2CD5A /* SnoreAppIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnoreAppIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4943615A2CAC1A3A0018E9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		4929FA6D2CA9632500B2CD5A = {
 			isa = PBXGroup;
 			children = (
+				4943615A2CAC1A3A0018E9DE /* AppDelegate.swift */,
 				4929FA782CA9632500B2CD5A /* SnoreAppIos */,
 				4929FA8A2CA9632600B2CD5A /* SnoreAppIosTests */,
 				4929FA942CA9632600B2CD5A /* SnoreAppIosUITests */,
@@ -249,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4943615B2CAC1A3A0018E9DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
